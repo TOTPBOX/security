@@ -2,7 +2,7 @@
 
 ## Overview
 
-TOTPBOX takes the security of our platform, users, and data very seriously. We appreciate the work of security researchers and the responsible disclosure community. If you believe you have found a security vulnerability in any TOTPBOX product or service, we encourage you to notify us promptly.
+TOTPBOX takes the security of our platform and users seriously. We appreciate the work of security researchers and the responsible disclosure community. If you believe you have found a security vulnerability in any TOTPBOX product or service, please notify us promptly.
 
 ---
 
@@ -31,7 +31,7 @@ Please include as much of the following information as possible:
 
 - **Description** of the vulnerability
 - **Type** of vulnerability (e.g., XSS, CSRF, injection, authentication bypass, etc.)
-- **Affected product/component** (Web app, API, iOS, Android, etc.)
+- **Affected product/component** (Web app, API, etc.)
 - **Steps to reproduce** — detailed, reproducible steps
 - **Impact** — what could an attacker achieve?
 - **Proof of concept** — screenshots, videos, or code snippets (optional but very helpful)
@@ -50,56 +50,32 @@ Please include as much of the following information as possible:
 
 ---
 
-## Responsible Disclosure Guidelines
-
-We ask that you:
-
-- Give us a reasonable amount of time to fix the issue before public disclosure
-- Avoid accessing, modifying, or deleting data that is not yours
-- Do not disrupt our services or users
-- Do not use the vulnerability to perform unauthorized actions
-- Act in good faith
-
-In return, TOTPBOX commits to:
-
-- Acknowledge your report promptly
-- Investigate and remediate valid reports
-- Keep you informed about progress
-- Credit you in our security advisories (if you wish)
-- Not pursue legal action against good-faith researchers
-
----
-
 ## Scope
 
 ### In Scope
 
-- `totpbox.com` and all subdomains
-- `api.totpbox.com`
-- TOTPBOX iOS and Android apps
-- Official TOTPBOX SDKs and open-source repositories under this GitHub account
+- **TOTPBOX Web App** — [totpbox.com](https://totpbox.com)
+- **TOTPBOX API** (when available) — authentication, authorization, data exposure
+- **TOTPBOX SDKs** (when available) — security logic, token handling
 
 ### Out of Scope
 
-- Third-party services integrated with TOTPBOX
-- Social engineering attacks
-- Physical security attacks
-- Denial of service (DoS/DDoS)
-- Issues already publicly known or reported
+- Denial of service (DoS/DDoS) attacks
+- Social engineering or phishing attacks
+- Physical security issues
+- Vulnerabilities in third-party services or dependencies (please report these to the respective maintainers)
+- Issues already known or previously reported
+- Theoretical vulnerabilities without proof of exploitability
 
 ---
 
-## Security Advisories
+## Recognition
 
-Past security advisories will be published here once resolved and disclosed.
+We genuinely appreciate the security research community's efforts. Researchers who responsibly disclose valid vulnerabilities will be acknowledged in our security advisories (with your permission).
 
 ---
 
 ## Contact
 
-- **Security Email:** [totpbox@gmail.com](mailto:totpbox@gmail.com)
-- **General Contact:** [totpbox.com](https://totpbox.com)
-
----
-
-<sub>This policy is inspired by industry-standard responsible disclosure frameworks including ISO 29147.</sub>
+For security-related inquiries: [totpbox@gmail.com](mailto:totpbox@gmail.com)  
+For general questions, please use [GitHub Issues](https://github.com/TOTPBOX/totpbox/issues).
